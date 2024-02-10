@@ -2,19 +2,16 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 * * * *' # Executa a cada hora, ajuste conforme sua necessidade
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
 
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Update README with recent GitHub activity
-      uses: jamesgeorge007/github-activity-readme@master
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      - uses: actions/checkout@v3 # Atualizado para a versão mais recente
+      - name: Update README with recent GitHub activity
+        uses: jamesgeorge007/github-activity-readme@master # Verifique por atualizações
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
