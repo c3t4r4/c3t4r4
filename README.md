@@ -25,7 +25,7 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará informações sobre
 
 ## 🤝 Conecte-se comigo
 
-- LinkedIn: [Glauco Garcia Cetara]([URL_DO_SEU_LINKEDIN](https://www.linkedin.com/in/glauco-garcia-cetara-56692939/))
+- LinkedIn: [GlaucoGarciaCetara](https://www.linkedin.com/in/glauco-garcia-cetara-56692939/)
 - Twitter: [@CetaraGarcia](https://twitter.com/CetaraGarcia)
 - E-mail: [Hotmail](mailto:neocetara@hotmail.com)
 
