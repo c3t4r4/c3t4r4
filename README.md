@@ -25,16 +25,16 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará informações sobre
 
 ## 🤝 Conecte-se comigo
 
-- LinkedIn: [Seu LinkedIn](URL_DO_SEU_LINKEDIN)
-- Twitter: [@SeuTwitter](URL_DO_SEU_TWITTER)
-- E-mail: [Seu email](mailto:seuemail@example.com)
+- LinkedIn: [Glauco Garcia Cetara]([URL_DO_SEU_LINKEDIN](https://www.linkedin.com/in/glauco-garcia-cetara-56692939/))
+- Twitter: [@CetaraGarcia](https://twitter.com/CetaraGarcia)
+- E-mail: [Hotmail](mailto:neocetara@hotmail.com)
 
 ## 🛠️ Projetos em Destaque
 
 Aqui estão alguns dos meus projetos que eu gostaria de destacar:
 
-- [Nome do Projeto 1](URL_DO_PROJETO) - Uma breve descrição do que o projeto faz.
-- [Nome do Projeto 2](URL_DO_PROJETO) - Uma breve descrição do que o projeto faz.
+- [pyLinuxMonitor](https://github.com/c3t4r4/pyLinuxMonitor) - Um script em python3 para monitorar uptime e dados basicos de hardware linux ou mac.
+- [pyLinuxMonitorWeb](https://github.com/c3t4r4/pyLinuxMonitorWeb) - Pagina Web para controle dos hardwares monitorados, utilizando php8.3, Laravel 10, InertiaJS, Vuejs3 e TailwindCss.
 
 <!-- Não esqueça de substituir `c3t4r4` pelo seu nome de usuário real no GitHub para garantir que os badges e estatísticas sejam exibidos corretamente. -->
 
