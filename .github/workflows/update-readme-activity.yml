@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Update this repo's README with recent activity
+    name: c3t4r4
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,6 +16,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: "Specify a custom commit message"
-          MAX_LINES: 10
+          COMMIT_MSG: "Update README with the recent activity"
+          MAX_LINES: 4
           COMMIT_NAME: GitHub Activity Readme
