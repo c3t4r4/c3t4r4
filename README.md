@@ -28,7 +28,7 @@
   
   - LinkedIn: [GlaucoGarciaCetara](https://www.linkedin.com/in/glauco-garcia-cetara-56692939/)
   - Twitter: [@CetaraGarcia](https://twitter.com/CetaraGarcia)
-  - E-mail: [Hotmail](mailto:neocetara@hotmail.com)
+  - E-mail: [neocetara@hotmail.com](mailto:neocetara@hotmail.com)
   
   ## 🛠️ Projetos em Destaque
   
