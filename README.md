@@ -22,6 +22,7 @@
   ## 📈 Atividade
   
   <!--START_SECTION:activity-->
+1. 💪 Opened PR [#1](https://github.com/bhaidar/laravel-server-sent-events/pull/1) in [bhaidar/laravel-server-sent-events](https://github.com/bhaidar/laravel-server-sent-events)
   <!--END_SECTION:activity-->
   
   ## 🤝 Conecte-se comigo
