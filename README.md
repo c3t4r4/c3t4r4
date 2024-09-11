@@ -37,6 +37,4 @@
   
   - [pyLinuxMonitor](https://github.com/c3t4r4/pyLinuxMonitor) - Um script em python3 para monitorar uptime e dados basicos de hardware linux ou mac.
   - [pyLinuxMonitorWeb](https://github.com/c3t4r4/pyLinuxMonitorWeb) - Pagina Web para controle dos hardwares monitorados, utilizando php8.3, Laravel 10, InertiaJS, Vuejs3 e TailwindCss.
-  
-  <!-- Não esqueça de substituir `c3t4r4` pelo seu nome de usuário real no GitHub para garantir que os badges e estatísticas sejam exibidos corretamente. -->
 </div>
