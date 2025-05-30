@@ -22,7 +22,7 @@
   ## 📈 Atividade
   
   <!--START_SECTION:activity-->
-1. 💪 Opened PR [#15](https://github.com/DevYukine/rustfoil/pull/15) in [DevYukine/rustfoil](https://github.com/DevYukine/rustfoil)
+1. 🚀 Published release [First Release](https://github.com/c3t4r4/WhatsApp2Pdf/releases/tag/1.0.0) in [c3t4r4/WhatsApp2Pdf](https://github.com/c3t4r4/WhatsApp2Pdf)
   <!--END_SECTION:activity-->
   
   ## 🤝 Conecte-se comigo
