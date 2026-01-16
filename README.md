@@ -22,7 +22,7 @@
   ## 📈 Atividade
   
   <!--START_SECTION:activity-->
-1. 🚀 Published release [First Release](https://github.com/c3t4r4/WhatsApp2Pdf/releases/tag/1.0.0) in [c3t4r4/WhatsApp2Pdf](https://github.com/c3t4r4/WhatsApp2Pdf)
+1. 💪 Opened PR [#168](https://github.com/jpteixeira99/lol-esports-api/pull/168) in [jpteixeira99/lol-esports-api](https://github.com/jpteixeira99/lol-esports-api)
   <!--END_SECTION:activity-->
   
   ## 🤝 Conecte-se comigo
