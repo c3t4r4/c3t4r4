@@ -22,7 +22,7 @@
   ## 📈 Atividade
   
   <!--START_SECTION:activity-->
-1. 💪 Opened PR [#168](https://github.com/jpteixeira99/lol-esports-api/pull/168) in [jpteixeira99/lol-esports-api](https://github.com/jpteixeira99/lol-esports-api)
+1. 🚀 Published release [v1.0.0 — Dashboard de Atestados Médicos](https://github.com/c3t4r4/DashAtestados/releases/tag/v1.0.0) in [c3t4r4/DashAtestados](https://github.com/c3t4r4/DashAtestados)
   <!--END_SECTION:activity-->
   
   ## 🤝 Conecte-se comigo
