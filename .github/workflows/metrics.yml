@@ -53,16 +53,20 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase origin main
           git add assets/github-langs.svg
           git diff --staged --quiet || git commit -m "chore: atualizar linguagens"
           git push
 
   generate-snake:
+    needs: generate-langs
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
+      - run: mkdir -p assets
 
       - name: Snake dark/light
         uses: Platane/snk@v3
@@ -78,6 +82,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase origin main
           git add assets/github-snake.svg assets/github-snake-dark.svg
           git diff --staged --quiet || git commit -m "chore: atualizar animação snake"
           git push
