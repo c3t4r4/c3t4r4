@@ -15,9 +15,9 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 ![Isometric Calendar](assets/github-isocalendar.svg)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/c3t4r4/c3t4r4/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/c3t4r4/c3t4r4/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/c3t4r4/c3t4r4/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="assets/pacman-contribution-graph.svg">
 </picture>
 
 ## 🐍 Contribuições
