@@ -34,7 +34,7 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 
 ## 💻 Linguagens mais usadas
 
-![Top Languages](assets/github-langs.svg)
+<!-- ![Top Languages](assets/github-langs.svg) -->
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=c3t4r4&layout=compact&langs_count=6&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=c3t4r4&layout=compact&langs_count=6&theme=transparent)
 
