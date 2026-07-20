@@ -49,17 +49,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Snake - tema claro
-        uses: Platane/snk@v3
+      - name: Snake dark/light
+        uses: Platane/snk/gh-action@v3
         with:
           github_user_name: c3t4r4
-          outputs: assets/github-snake.svg
-
-      - name: Snake - tema escuro
-        uses: Platane/snk@v3
-        with:
-          github_user_name: c3t4r4
-          outputs: assets/github-snake-dark.svg?palette=github-dark
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit snake
         run: |
