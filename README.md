@@ -13,7 +13,7 @@
   
   ## 🔥 Streaks
   
-  ![c3t4r4's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=c3t4r4&theme=dark)
+  ![c3t4r4's GitHub Streak](https://streak-stats.demolab.com/?user=c3t4r4&theme=dark)
   
   ## 💻 Linguagens mais usadas
   
@@ -31,10 +31,4 @@
   - Twitter: [@CetaraGarcia](https://twitter.com/CetaraGarcia)
   - E-mail: [neocetara@hotmail.com](mailto:neocetara@hotmail.com)
   
-  ## 🛠️ Projetos em Destaque
-  
-  Aqui estão alguns dos meus projetos que eu gostaria de destacar:
-  
-  - [pyLinuxMonitor](https://github.com/c3t4r4/pyLinuxMonitor) - Um script em python3 para monitorar uptime e dados basicos de hardware linux ou mac.
-  - [pyLinuxMonitorWeb](https://github.com/c3t4r4/pyLinuxMonitorWeb) - Pagina Web para controle dos hardwares monitorados, utilizando php8.3, Laravel 10, InertiaJS, Vuejs3 e TailwindCss.
 </div>
