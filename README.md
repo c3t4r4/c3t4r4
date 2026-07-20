@@ -5,19 +5,15 @@
   
   ## 📊 Estatísticas do GitHub
   
-  ![c3t4r4's GitHub stats](https://github-readme-stats.vercel.app/api?username=c3t4r4&show_icons=true&theme=radical)
+  ![GitHub Metrics](assets/github-metrics.svg)
   
-  ## 🏆 Troféus do GitHub
+  ## 🏆 Conquistas
   
-  ![c3t4r4's GitHub Trophies](https://github-profile-trophy.vercel.app/?username=c3t4r4&row=1&column=6)
-  
-  ## 🔥 Streaks
-  
-  ![c3t4r4's GitHub Streak](https://streak-stats.demolab.com/?user=c3t4r4&theme=dark)
+  ![GitHub Achievements](assets/github-achievements.svg)
   
   ## 💻 Linguagens mais usadas
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c3t4r4&layout=compact&theme=vision-friendly-dark)
+  ![Top Languages](assets/github-langs.svg)
   
   ## 📈 Atividade
   
