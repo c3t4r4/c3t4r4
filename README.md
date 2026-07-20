@@ -10,15 +10,13 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 
 ![GitHub Metrics](assets/github-metrics.svg)
 
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=c3t4r4&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=c3t4r4&show_icons=true&include_all_commits=true&theme=transparent)
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/wakatime?username=dac8858a-f7e5-4e49-a38d-11d5c2f5ebe4&langs_count=6&display_format=percent&theme=transparent)](https://wakatime.com/@dac8858a-f7e5-4e49-a38d-11d5c2f5ebe4)
+
 ## 📅 Calendário de Contribuições
 
 ![Isometric Calendar](assets/github-isocalendar.svg)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="assets/pacman-contribution-graph.svg">
-</picture>
 
 ## 🐍 Contribuições
 
@@ -28,9 +26,17 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
   <img alt="snake eating contributions" src="assets/github-snake.svg" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="assets/pacman-contribution-graph.svg">
+</picture>
+
 ## 💻 Linguagens mais usadas
 
 ![Top Languages](assets/github-langs.svg)
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=c3t4r4&layout=compact&langs_count=6&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=c3t4r4&layout=compact&langs_count=6&theme=transparent)
 
 ## 🛠️ Tech Stack
 

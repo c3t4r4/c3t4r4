@@ -32,11 +32,14 @@ jobs:
           config_timezone: America/Sao_Paulo
 
   generate-langs:
+    needs: generate-metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -65,6 +68,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - run: mkdir -p assets
 
