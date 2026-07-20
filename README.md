@@ -10,15 +10,15 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 
 ![GitHub Metrics](assets/github-metrics.svg)
 
+## 📅 Calendário de Contribuições
+
+![Isometric Calendar](assets/github-isocalendar.svg)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/laracmiranda/laracmiranda/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/laracmiranda/laracmiranda/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/laracmiranda/laracmiranda/output/pacman-contribution-graph.svg">
 </picture>
-
-## 📅 Calendário de Contribuições
-
-![Isometric Calendar](assets/github-isocalendar.svg)
 
 ## 🐍 Contribuições
 
