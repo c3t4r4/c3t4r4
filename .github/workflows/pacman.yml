@@ -2,10 +2,12 @@ name: Generate pacman animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches: [main]
+    - cron: "0 3 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -15,7 +17,9 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
@@ -33,5 +37,18 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg
-          git diff --staged --quiet || git commit -m "chore: atualizar animação pacman"
-          git push
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes para commitar."
+            exit 0
+          fi
+          git commit -m "chore: atualizar animação pacman [Skip GitHub Action]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push concluido."
+              exit 0
+            fi
+            echo "Tentativa $i falhou; aguardando..."
+            sleep $((i * 5))
+          done
+          echo "Falha ao enviar apos 3 tentativas."
+          exit 1

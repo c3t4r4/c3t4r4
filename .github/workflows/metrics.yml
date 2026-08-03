@@ -3,9 +3,11 @@ name: GitHub Metrics
 on:
   schedule:
     - cron: '0 0 * * *'
-  push:
-    branches: [main]
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   generate-metrics:
@@ -37,11 +39,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -56,10 +58,22 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase origin main
           git add assets/github-langs.svg
-          git diff --staged --quiet || git commit -m "chore: atualizar linguagens"
-          git push
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes para commitar."
+            exit 0
+          fi
+          git commit -m "chore: atualizar linguagens [Skip GitHub Action]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push concluido."
+              exit 0
+            fi
+            echo "Tentativa $i falhou; aguardando..."
+            sleep $((i * 5))
+          done
+          echo "Falha ao enviar apos 3 tentativas."
+          exit 1
 
   generate-snake:
     needs: generate-langs
@@ -67,7 +81,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -87,7 +101,19 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase origin main
           git add assets/github-snake.svg assets/github-snake-dark.svg
-          git diff --staged --quiet || git commit -m "chore: atualizar animação snake"
-          git push
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes para commitar."
+            exit 0
+          fi
+          git commit -m "chore: atualizar animação snake [Skip GitHub Action]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push concluido."
+              exit 0
+            fi
+            echo "Tentativa $i falhou; aguardando..."
+            sleep $((i * 5))
+          done
+          echo "Falha ao enviar apos 3 tentativas."
+          exit 1
