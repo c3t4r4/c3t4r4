@@ -3,9 +3,9 @@
   <text x="20" y="32" fill="#ff79c6" font-size="16" font-weight="bold" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">Most Used Languages</text>
   <rect x="20" y="40" width="360" height="1" fill="#44475a"/>
   <circle cx="26" cy="56" r="6" fill="#bd93f9"/>
-  <text x="40" y="61" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">C++ 73.00%</text>
+  <text x="40" y="61" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">C++ 72.98%</text>
   <circle cx="206" cy="56" r="6" fill="#8be9fd"/>
-  <text x="220" y="61" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">C 18.63%</text>
+  <text x="220" y="61" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">C 18.62%</text>
   <circle cx="26" cy="82" r="6" fill="#50fa7b"/>
   <text x="40" y="87" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">PHP 2.16%</text>
   <circle cx="206" cy="82" r="6" fill="#ffb86c"/>
@@ -17,5 +17,5 @@
   <circle cx="26" cy="134" r="6" fill="#f1fa8c"/>
   <text x="40" y="139" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">Blade 0.85%</text>
   <circle cx="206" cy="134" r="6" fill="#6272a4"/>
-  <text x="220" y="139" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">C# 0.57%</text>
+  <text x="220" y="139" fill="#f8f8f2" font-size="12" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">Shell 0.60%</text>
 </svg>
