@@ -57,7 +57,7 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 
 <!--START_SECTION:activity-->
 
-1. 🚀 Published release [v1.0.3 — Dashboard de Atestados Médicos](https://github.com/c3t4r4/DashAtestados/releases/tag/v1.0.3) in [c3t4r4/DashAtestados](https://github.com/c3t4r4/DashAtestados)
+1. 🚀 Published release [v1.0.0](https://github.com/c3t4r4/Personal-MD-for-Cursor/releases/tag/v1.0.0) in [c3t4r4/Personal-MD-for-Cursor](https://github.com/c3t4r4/Personal-MD-for-Cursor)
 <!--END_SECTION:activity-->
 
 ## 🤝 Conecte-se comigo
