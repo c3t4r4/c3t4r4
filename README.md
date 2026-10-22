@@ -57,7 +57,7 @@ Bem-vindo(a) ao meu perfil no GitHub! Aqui você encontrará meus projetos, cont
 
 <!--START_SECTION:activity-->
 
-1. 🚀 Published release [v1.0.0](https://github.com/c3t4r4/Personal-MD-for-Cursor/releases/tag/v1.0.0) in [c3t4r4/Personal-MD-for-Cursor](https://github.com/c3t4r4/Personal-MD-for-Cursor)
+1. ❌ Closed PR [#168](https://github.com/jpteixeira99/lol-esports-api/pull/168) in [jpteixeira99/lol-esports-api](https://github.com/jpteixeira99/lol-esports-api)
 <!--END_SECTION:activity-->
 
 ## 🤝 Conecte-se comigo
